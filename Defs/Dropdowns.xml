@@ -299,4 +299,7 @@
     <DesignatorDropdownGroupDef>
         <defName>Ferny_Thermometers</defName>
     </DesignatorDropdownGroupDef>
+    <DesignatorDropdownGroupDef>
+        <defName>Ferny_ShuttleDocks</defName>
+    </DesignatorDropdownGroupDef>
 </Defs>
