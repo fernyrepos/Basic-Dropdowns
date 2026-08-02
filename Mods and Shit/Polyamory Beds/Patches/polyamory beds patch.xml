@@ -24,6 +24,26 @@
     </match>
   </Operation>
 
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="Triple_Ergonomic"]</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Triple_Ergonomic"]</xpath>
+      <value>
+        <designatorDropdown>Ferny_ErgonomicBeds</designatorDropdown>
+      </value>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="Quadra_Ergonomic"]</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Quadra_Ergonomic"]</xpath>
+      <value>
+        <designatorDropdown>Ferny_ErgonomicBeds</designatorDropdown>
+      </value>
+    </match>
+  </Operation>
+
                 <!-- <Operation Class="PatchOperationAdd">
                     <xpath>Defs/ThingDef[defName="TripleRoyalBed"]</xpath>
                     <value>
